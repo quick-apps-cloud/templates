@@ -2,7 +2,7 @@ import { ModeToggle } from "@/mode-toggle";
 import { Plus, StarIcon } from "lucide-react";
 import { Button } from "./ui/button";
 import { useEffect, useState } from "react";
-import DokployLogo from "./ui/dokploy-logo";
+import DokployLogo from "./ui/quickapps-logo";
 
 const Navigation = () => {
   const [githubStars, setGithubStars] = useState(0);
