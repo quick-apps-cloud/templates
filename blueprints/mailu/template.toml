@@ -1,8 +1,8 @@
 [variables]
 main_domain = "${domain}"
 postgres_password = "${password}"
-secret_key = "${base64:32}"
-api_token = "${base64:32}"
+secret_key = "${password:32}"
+api_token = "${password:32}"
 
 [config]
 mounts = []
