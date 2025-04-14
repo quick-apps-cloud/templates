@@ -2685,5 +2685,22 @@
       "api",
       "self-hosted"
     ]
+  },
+  {
+    "id": "mailu",
+    "name": "Mailu",
+    "version": "2024.06",
+    "description": "Mailu is a self-hosted email server that is easy to deploy and use.",
+    "logo": "logo.png",
+    "links": {
+      "github": "https://github.com/Mailu/Mailu/tree/2024.06",
+      "website": "https://mailu.io/",
+      "docs": "https://mailu.io/2024.06/"
+    },
+    "tags": [
+      "email",
+      "self-hosted",
+      "email-server"
+    ]
   }
 ]
