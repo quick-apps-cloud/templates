@@ -8,7 +8,7 @@ api_token = "${password:32}"
 mounts = []
 
 [[config.domains]]
-serviceName = "mailgun"
+serviceName = "front"
 port = 80
 host = "${main_domain}"
 
