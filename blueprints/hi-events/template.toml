@@ -1,7 +1,7 @@
 [variables]
 main_domain = "${domain}"
 postgres_password = "${password}"
-jwt_secret = "${password}"
+jwt_secret = "${base64:32}"
 app_key = "${base64:32}"
 
 [config]
