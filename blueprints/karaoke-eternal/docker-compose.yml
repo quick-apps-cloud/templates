@@ -1,0 +1,18 @@
+services:
+  karaoke-eternal:
+    image: radrootllc/karaoke-eternal
+    container_name: karaoke-eternal
+    volumes:
+      - karaoke-eternal_data:/config
+      - karaoke-eternal_media:/mnt/karaoke
+    ports:
+      - 8000:8080
+    restart: unless-stopped
+
+networks:
+  dokploy-network:
+    external: true
+
+volumes:
+  karaoke-eternal_data:
+  karaoke-eternal_media:

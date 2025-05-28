@@ -2308,5 +2308,18 @@
       "database",
       "search"
     ]
+  },
+  {
+    "id": "karaoke-eternal",
+    "name": "Karaoke Eternal",
+    "version": "latest",
+    "description": "Karaoke Eternal is a self-hosted karaoke platform that allows you to sing your favorite songs in a virtual karaoke room.",
+    "logo": "karaoke-eternal.png",
+    "links": {
+      "github": "https://github.com/radrootllc/karaoke-eternal",
+      "website": "https://karaoke-eternal.com/",
+      "docs": "https://karaoke-eternal.com/docs/"
+    },
+    "tags": ["karaoke", "music", "self-hosted"]
   }
 ]
