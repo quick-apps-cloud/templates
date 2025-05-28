@@ -2,7 +2,7 @@
 main_domain = "${domain}"
 postgres_password = "${password}"
 jwt_secret = "${password}"
-app_key = "${password}"
+app_key = "${base64:32}"
 
 [config]
 env = [
@@ -18,6 +18,8 @@ env = [
   "MAIL_PORT=",
   "MAIL_FROM_ADDRESS=",
   "MAIL_FROM_NAME=",
+  "MAIL_USERNAME=",
+  "MAIL_PASSWORD="
 ]
 mounts = []
 
